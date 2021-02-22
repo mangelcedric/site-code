@@ -55,8 +55,8 @@ a {
 .section {
     border: solid;
     border-width: 0 .625rem;
-    /* display: -webkit-box;
-    display: -ms-flexbox; */
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -139,7 +139,7 @@ a {
     background: #201f20;
 }
 
-@media (min-width:300px) {
+/* @media (min-width:300px) {
     .section {
         border-width: 0 1.25rem;
         padding: 2.5rem 1.25rem
@@ -148,7 +148,7 @@ a {
     .section:before {
         height: 1.25rem
     }
-}
+} */
 
 @media (min-width:480px) {
     .section {
@@ -341,7 +341,7 @@ button.code-value:hover {
 
 @media (max-width:480px) {
     .code-block {
-        font-size: 75%
+        font-size: 70%
     }
 }
 

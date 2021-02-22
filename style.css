@@ -55,8 +55,8 @@ a {
 .section {
     border: solid;
     border-width: 0 .625rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    /* display: -webkit-box;
+    display: -ms-flexbox; */
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -106,7 +106,7 @@ a {
 
 .section--header img {
     margin: auto;
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     right: 0;
     bottom: 0;
@@ -137,6 +137,17 @@ a {
 .section--main:after,
 .section--main:before {
     background: #201f20;
+}
+
+@media (min-width:300px) {
+    .section {
+        border-width: 0 1.25rem;
+        padding: 2.5rem 1.25rem
+    }
+    .section:after,
+    .section:before {
+        height: 1.25rem
+    }
 }
 
 @media (min-width:480px) {

@@ -55,5 +55,11 @@
             </code>
         </pre>
     </main>
+    <script>
+      document.getElementById('more-toggle').addEventListener('click', function () {
+        this.hidden = true;
+        document.getElementById('more-content').hidden = false;
+      }, { once: true });
+    </script>
   </body>
 </html>
